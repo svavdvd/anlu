@@ -34,3 +34,11 @@ CMOS 传感器 --MIPI CSI-2--> mipi_dphy_rx --> uial2axis
 综合与布局布线产生的日志（`*.log`、`*.logw`、`*.timingsummary`，约 8 MB）、
 Keil 编译中间件（`Objects/`、`Listings/`）以及工程备份文件（`*.bak_*`）已通过
 `.gitignore` 排除，可由工程重新生成。
+
+## 许可证
+
+本仓库中 `V1.7代码/` 目录下的自有代码采用 **MIT License**，详见根目录 [LICENSE](LICENSE)。
+
+`opensource/opensource/` 目录为第三方参考代码，遵循其自带的 **MIT License**
+（见 `opensource/opensource/LICENSE`，版权归原作者所有），本仓库仅作整理与引用，
+不改变其原始授权。
