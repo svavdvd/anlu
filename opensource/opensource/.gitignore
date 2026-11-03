@@ -1,0 +1,37 @@
+# ===== 编译产物 =====
+# FPGA / 安路 TangDynasty (TD) 综合布线产物
+*.bit
+*.svf
+*.runs/
+*_Runs/
+*.timingsummary
+*.log
+*.logw
+*.map
+*.al
+
+# Keil / MDK 编译产物
+*.o
+*.d
+*.crf
+*.axf
+*.lst
+*.dep
+*.lnp
+*.htm
+*.build_log.htm
+Objects/
+Listings/
+DebugConfig/
+
+# ===== 加密 / 厂商 IP 核（不随源码开源）=====
+*.enc.v
+*.enc.sv
+ip_source/
+ph1p35_ddr/
+mipi_dphy_rx/
+
+# ===== 系统文件 =====
+Thumbs.db
+.DS_Store
+*.bak

@@ -1,0 +1,39 @@
+# ===== 综合/布局构建产物（紫光同创 PDS）=====
+*.log
+*.logw
+*.timingsummary
+*.bak
+*.bak_*
+*.rpt
+*.srs
+*.pdsbak
+db/
+output_files/
+incremental_db/
+impl/
+simulation/
+
+# ===== Keil MDK 构建产物 =====
+Objects/
+Listings/
+DebugConfig/
+RTE/
+*.uvguix.*
+*.dep
+*.lnp
+*.o
+*.d
+*.crf
+*.axf
+*.hex
+*.map
+*.lst
+*.scvd
+
+# ===== 通用 =====
+__pycache__/
+*.pyc
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
